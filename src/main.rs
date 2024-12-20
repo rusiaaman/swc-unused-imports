@@ -200,14 +200,15 @@ fn main() {
     let code = r#"
         import { MyClass } from './my-class';
         import { AnotherClass } from './another';
-        
+        import { format, parse } from 'date-fns';
+        import { styled, css } from '@emotion/styled';
+        import * as StyleUtils from './style-utils';
+
         function test() {
             // Only using MyClass in new expression
             return new MyClass();
         }
-=======>>>>>>> REPLACE
-=======>>>>>>> REPLACE
-        
+
         // Using namespace import in type position
         type CustomTheme = StyleUtils.Theme;
         
