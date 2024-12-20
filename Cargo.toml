@@ -1,0 +1,10 @@
+[package]
+name = "swc-unused-imports"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+swc_common = "0.33.12"
+swc_ecma_parser = "0.141.33"
+swc_ecma_visit = "0.96.15"
+swc_ecma_ast = "0.110.15"
